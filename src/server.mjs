@@ -1,6 +1,5 @@
 import Fastify from 'fastify';
 import { createServer } from 'node:http';
-import wisp from 'wisp-server-node';
 import createRammerhead from '../lib/rammerhead/src/server/index.js';
 import { epoxyPath } from '@mercuryworkshop/epoxy-transport';
 import { libcurlPath } from '@mercuryworkshop/libcurl-transport';
